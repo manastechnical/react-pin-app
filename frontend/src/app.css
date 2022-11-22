@@ -1,0 +1,120 @@
+.card{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label{
+    color: tomato;
+    font-size: 13px;
+    border-bottom: 1px solid tomato;
+    margin: 3px 0;
+    width: max-content;
+}
+
+.desc{
+    font-size: 14px;
+}
+
+.star{
+    color: gold;
+}
+
+.username{
+    font-size: 14px;
+}
+
+.date{
+    font-size: 12px;
+}
+
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+input,textarea{
+    border: none;
+    border-bottom: 1px solid rgb(145, 142, 142);
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(172, 169,169);
+    font-size: 12px;
+}
+
+.submitButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    background-color: rgb(245, 121, 99);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.loutBtn{
+    background-color: tomato;border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.loutBtn:hover{
+    background-color: rgb(248, 127, 105);
+}
+
+.linBtn{
+    background-color: rgb(35, 144, 144);
+    margin-right: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.linBtn:hover{
+    background-color: rgb(112, 161, 161);
+}
+
+.registerBtn{
+    background-color: slateblue;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.registerBtn:hover{
+    background-color: rgb(152, 141, 224);
+}
+
+.buttons,.loutBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
